@@ -1,0 +1,219 @@
+name: Ruins
+world: Ruins
+loc1:
+  world: Ruins
+  x: -58.60284857603537
+  y: -17.568706282182603
+  z: 124.20980158487515
+  pitch: -11.70576286315918
+  yaw: -145.86849975585938
+loc2:
+  world: Ruins
+  x: 174.83357499678206
+  y: 162.3702566861058
+  z: -199.58107604029067
+  pitch: 48.689659118652344
+  yaw: -311.070068359375
+lobby:
+  world: Ruins
+  x: 242.3657090950741
+  y: 134.0
+  z: -190.59580457604648
+  pitch: 9.633859634399414
+  yaw: -83.45692443847656
+minplayers: 8
+record: 427
+record-holders:
+- SpiderRobotMan
+- LDWme
+regionname: Ruins
+time: 1000
+targetmaterial: BED_BLOCK
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Ruins
+    x: 76.49719831036538
+    y: 41.0
+    z: -124.54025923505218
+    pitch: 86.7288818359375
+    yaw: 30.076526641845703
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Ruins
+    x: 167.50892379821667
+    y: 41.0
+    z: -29.283209193342756
+    pitch: 89.91947937011719
+    yaw: 10.105788230895996
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Ruins
+    x: 72.50362274053433
+    y: 41.0
+    z: 62.3522754368884
+    pitch: 83.51724243164062
+    yaw: -200.07040405273438
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: Ruins
+    x: -18.514174520553645
+    y: 41.0
+    z: -33.57328660361243
+    pitch: 85.16786193847656
+    yaw: -164.9203338623047
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ruins
+    x: 59.49853982366293
+    y: 41.0
+    z: -31.58205985903517
+    pitch: 90.0
+    yaw: -101.46456146240234
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ruins
+    x: 74.47826512198891
+    y: 41.0
+    z: -15.334559903917055
+    pitch: 90.0
+    yaw: -34.18422317504883
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ruins
+    x: 89.55260509888741
+    y: 41.0
+    z: -31.452168832966912
+    pitch: 89.59733581542969
+    yaw: -82.74246215820312
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ruins
+    x: 74.65750870608305
+    y: 41.0
+    z: -46.50275215414885
+    pitch: 81.42398071289062
+    yaw: -336.7243957519531
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: Ruins
+    x: 74.46234529439455
+    y: 41.0
+    z: -31.31222189599344
+    pitch: 90.0
+    yaw: -1.284332275390625
+teams:
+  Red:
+    ==: Team
+    bedfeed:
+      world: Ruins
+      x: 159.0
+      y: 41.0
+      z: -29.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Ruins
+      x: 163.54995004477138
+      y: 41.0
+      z: -37.361529345545726
+      pitch: -11.997734069824219
+      yaw: 68.4874496459961
+    color: RED
+    name: Red
+    maxplayers: 2
+    bedhead:
+      world: Ruins
+      x: 159.0
+      y: 41.0
+      z: -28.0
+      pitch: 0.0
+      yaw: 0.0
+  Yellow:
+    ==: Team
+    bedfeed:
+      world: Ruins
+      x: 71.0
+      y: 41.0
+      z: 54.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Ruins
+      x: 79.96422931295433
+      y: 41.0
+      z: 55.441824127787015
+      pitch: -1.6904133558273315
+      yaw: 166.0464324951172
+    color: YELLOW
+    name: Yellow
+    maxplayers: 2
+    bedhead:
+      world: Ruins
+      x: 70.0
+      y: 41.0
+      z: 54.0
+      pitch: 0.0
+      yaw: 0.0
+  Blue:
+    ==: Team
+    bedfeed:
+      world: Ruins
+      x: -11.0
+      y: 41.0
+      z: -35.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Ruins
+      x: -13.471002030693544
+      y: 41.0
+      z: -26.266160734966192
+      pitch: -5.636195659637451
+      yaw: 262.0755615234375
+    color: BLUE
+    name: Blue
+    maxplayers: 2
+    bedhead:
+      world: Ruins
+      x: -11.0
+      y: 41.0
+      z: -36.0
+      pitch: 0.0
+      yaw: 0.0
+  Green:
+    ==: Team
+    bedfeed:
+      world: Ruins
+      x: 77.0
+      y: 41.0
+      z: -117.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: Ruins
+      x: 68.64241896843421
+      y: 41.0
+      z: -118.55751587858532
+      pitch: 2.1345062255859375
+      yaw: -17.032299041748047
+    color: GREEN
+    name: Green
+    maxplayers: 2
+    bedhead:
+      world: Ruins
+      x: 78.0
+      y: 41.0
+      z: -117.0
+      pitch: 0.0
+      yaw: 0.0

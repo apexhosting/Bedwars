@@ -1,0 +1,46 @@
+Groups:
+  Owner:
+    Permission: nte.owner
+    Prefix: '&4[Owner] '
+    Suffix: '&f'
+    SortPriority: 1
+  Admin:
+    Permission: nte.admin
+    Prefix: '&c[Admin] '
+    Suffix: '&f'
+    SortPriority: 2
+  Moderator:
+    Permission: nte.moderator
+    Prefix: '&3[Mod] '
+    Suffix: '&f'
+    SortPriority: 3
+  rank1:
+    Permission: nte.rank1
+    Prefix: '&6[RANK1] '
+    Suffix: '&f'
+    SortPriority: 4
+  rank2:
+    Permission: nte.rank2
+    Prefix: '&3[RANK2] '
+    Suffix: '&f'
+    SortPriority: 5
+  rank3:
+    Permission: nte.rank3
+    Prefix: '&4[RANK3] '
+    Suffix: '&f'
+    SortPriority: 6
+  rank4:
+    Permission: nte.rank4
+    Prefix: '&b[RANK4] '
+    Suffix: '&f'
+    SortPriority: 7
+  rank5:
+    Permission: nte.rank5
+    Prefix: '&5[RANK5] '
+    Suffix: '&f'
+    SortPriority: 8
+  member:
+    Permission: nte.member
+    Prefix: '&f'
+    Suffix: '&f'
+    SortPriority: 9

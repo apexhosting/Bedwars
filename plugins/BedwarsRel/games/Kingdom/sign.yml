@@ -1,0 +1,25 @@
+signs:
+- world: lobby
+  x: 300.0
+  y: 181.0
+  z: -391.0
+  pitch: 0.0
+  yaw: 0.0
+- world: lobby
+  x: 331.0
+  y: 181.0
+  z: -424.0
+  pitch: 0.0
+  yaw: 0.0
+- world: lobby
+  x: 267.0
+  y: 181.0
+  z: -422.0
+  pitch: 0.0
+  yaw: 0.0
+- world: lobby
+  x: 298.0
+  y: 181.0
+  z: -455.0
+  pitch: 0.0
+  yaw: 0.0

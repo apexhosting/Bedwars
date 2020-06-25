@@ -1,0 +1,21 @@
+portal:
+  location: lobby, -21.246, 131.632, -11.563
+  lines:
+  - '&8&m----------&r&8[ &3End Portal &8]&8&m----------'
+  - '&bInformation'
+  - '&8[p] &7Jump in the &bend portal&7 &8[p]'
+  - '&8[p] &7to play some &3SkyWars&7! &8[p]'
+  - '&8&m-------------------------------'
+welcome:
+  location: lobby, 299.445, 185.529, -417.521
+  lines:
+  - '&c&lWELCOME'
+  - '&7Welcome to Bedwars!'
+  - '&8&m---------------'
+  - '&b&lHOW TO GET STARTED?'
+  - '&7Hop into a game by'
+  - '&7running forward and'
+  - '&7clicking the sign!'
+  - ''
+  - '&cMake sure you have fun!'
+  - '&8&m---------------'

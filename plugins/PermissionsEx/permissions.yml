@@ -1,0 +1,154 @@
+groups:
+  default:
+    options:
+      default: false
+    permissions:
+    - modifyworld.*
+  Member:
+    options:
+      default: true
+    permissions:
+    - bw.base
+    - essentials.silentquit
+    - essentials.silentjoin
+    - essentials.build
+    - nte.member
+    - modifyworld.*
+    - -bukkit.command.kill
+    - -bukkit.command.help
+    - -bukkit.command.?
+    - -bukkit.command.plugins
+    - -bukkit.command.version
+    - essentials.spawn
+    - essentials.msg
+    - essentials.list
+    - essentials.realname
+    - essentials.motd
+  rank1:
+    inheritance:
+    - Member
+    permissions:
+    - nte.rank1
+    - -nte.member
+    - -bukkit.command.kill
+    - -bukkit.command.help
+    - -bukkit.command.?
+    - -bukkit.command.plugins
+    - -bukkit.command.version
+    - essentials.spawn
+    - essentials.msg
+    - essentials.list
+    - essentials.realname
+    - essentials.motd
+    - essentials.nick
+    - essentials.chat.color
+  rank2:
+    inheritance:
+    - rank1
+    permissions:
+    - nte.rank2
+    - -nte.rank1
+    - -bukkit.command.kill
+    - -bukkit.command.help
+    - -bukkit.command.?
+    - -bukkit.command.plugins
+    - -bukkit.command.version
+    - essentials.spawn
+    - essentials.msg
+    - essentials.list
+    - essentials.realname
+    - essentials.motd
+    - essentials.seen
+    - essentials.nick.color
+    - essentials.nick
+    - essentials.chat.color
+  rank3:
+    inheritance:
+    - rank2
+    permissions:
+    - nte.rank3
+    - -nte.rank2
+    - essentials.spawn
+    - essentials.msg
+    - essentials.list
+    - essentials.realname
+    - essentials.motd
+    - essentials.seen
+    - essentials.nick.color
+    - essentials.nick
+    - essentials.chat.color
+    - essentials.afk
+  rank4:
+    inheritance:
+    - rank3
+    permissions:
+    - nte.rank4
+    - -nte.rank3
+    - -bukkit.command.kill
+    - -bukkit.command.help
+    - -bukkit.command.?
+    - -bukkit.command.plugins
+    - -bukkit.command.version
+    - essentials.spawn
+    - essentials.msg
+    - essentials.list
+    - essentials.realname
+    - essentials.motd
+    - essentials.seen
+    - essentials.nick.color
+    - essentials.nick.format
+    - -essentials.nick.magic
+    - nte.donator
+    - essentials.nick
+    - essentials.chat.color
+    - essentials.afk
+  rank5:
+    inheritance:
+    - rank4
+    permissions:
+    - nte.rank5
+    - -nte.rank4
+    - essentials.spawn
+    - essentials.msg
+    - essentials.list
+    - essentials.realname
+    - essentials.motd
+    - essentials.seen
+    - essentials.nick.color
+    - essentials.nick.format
+    - -essentials.nick.magic
+    - essentials.nick
+    - essentials.chat.color
+    - essentials.afk
+  Mod:
+    inheritance:
+    - Member
+    permissions:
+    - nte.moderator
+    - -nte.member
+    - essentials.kick
+    - essentials.ban
+    - essentials.mute
+    - essentials.tempban
+    - essentials.vanish
+    - essentials.fly
+  Admin:
+    permissions:
+    - -nte.owner
+    - -nte.member
+    - nte.admin
+    - '*'
+  Owner:
+    permissions:
+    - -nte.admin
+    - nte.owner
+    - '*'
+schema-version: 1
+users:
+  ab32b857-1f3a-4742-b0e0-b193a992813a:
+    permissions:
+    - '*'
+    options:
+      name: Gullible
+    group:
+    - Admin

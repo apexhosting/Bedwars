@@ -1,0 +1,37 @@
+# ----------- bAnnouncer ----------- #
+
+ # ----------- Coltify ----------- #
+
+  # -----------  1.0  ----------- #
+
+  
+
+Use-PlaceholderAPI: false
+
+
+
+# Message interval (In seconds).
+
+Interval: 120
+
+
+
+Messages:
+
+  1:
+
+    - "&bIf you are interested in &dpurchasing a rank&b, head to &bstore.mystore.com"
+
+  2:
+
+    - "&bPlease vote &ddaily &bfor some&d great rewards&b, use &d/vote."
+
+
+  3:
+
+    - "&bSign up on our &dwebsite&b to stay updated, go to&b: &dwww.mysite.com" 
+
+  4:
+
+    - "&bFollow us on&d twitter &bto get quick updates, our twitter is &d@&bmytwitter"
+

@@ -1,0 +1,102 @@
+# SuperbVote configuration
+# A superb vote plugin made by Tux.
+#
+# https://github.com/minecrafter/SuperbVote/wiki
+
+# Once you've configured SuperbVote, add it to our official server list, CraftServers.net:
+# Official server list: https://www.craftservers.net/
+
+# Database configuration.
+storage:
+  database: json
+  json:
+    file: votes.json
+  mysql:
+    host: 127.0.0.1
+    username: root
+    password: topsecret
+    database: superbvote
+    table: votes
+    read-only: false
+
+# General vote configuration.
+votes:
+  # At least this many seconds must pass before allowing another vote (per-service). This will apply per service.
+  # Default: 3600 seconds (1 hour)
+  cooldown-per-service: 3600
+
+  # Whether or not to treat fake votes as real votes
+  process-fake-votes: true
+
+# Rewards. This is the main section you will need to edit. Ordering is important.
+rewards:
+  # Example of matchers. See https://github.com/minecrafter/SuperbVote/wiki/Configuration#if for a full list of available
+  # matchers.
+  - if:
+      permission: superbvote.test
+      chance-pecentage: 5
+      service: SpecialService
+    commands:
+    - give %player% diamond 4
+    - eco give %player% 1000
+    player-message: "&aThanks for meeting nearly impossible conditions, you have been rewarded with 4 diamonds and $1000."
+    broadcast-message: "&a%player% got really lucky and was rewarded with 4 diamonds and $1000!"
+  # Default rewards are defined by having no preconditions. Place it at the bottom of the config.
+  - if: {}
+    commands:
+    - eco give %player% 1000
+    player-message: "&aThanks for voting for us on %service%, you have been rewarded with $1000."
+    broadcast-message: "&a%player% has voted for us on %service% and was rewarded with $1000!"
+
+# Whether or not players need to be online to vote. If set, offline player votes are queued for when the player next logs in.
+require-online: true
+
+# Broadcast settings:
+broadcast:
+  # Should we broadcast votes at all?
+  enabled: true
+
+  # Should we tell players if they voted?
+  message-player: true
+
+  # Should we broadcast queued votes?
+  queued: true
+
+# Vote command.
+# See http://www.minecraftforum.net/forums/minecraft-discussion/redstone-discussion-and/351959-1-9-json-text-component-for-tellraw-title-books
+# and https://www.minecraftjson.com for json text format
+vote-command:
+  enabled: false
+  use-json-text: false
+  text: |-
+    You could vote for us, but the owner forgot to add the list of websites to vote at!
+
+# Vote reminder.
+vote-reminder:
+  message: "&cDon't forget to vote for us! You currently have &a%votes%&c votes."
+  on-join: true
+  repeat: 180
+
+# Controls the /sv <top/leaderboard> command.
+leaderboard:
+  # Supported: text, scoreboard
+  display: text
+
+  # The text format supports pagination.
+  text:
+    per-page: 10
+    header: "&c&m         &r&b Top Voters &r&c&m         &r"
+    entry: "&e%num%. &7%player% (&e%votes%&7 votes)"
+
+  # Control the scoreboard.
+  scoreboard:
+    title: Top voters
+    max: 10
+
+# Control top player signs.
+top-player-signs:
+  format:
+  - "#%num%"
+  - ""
+  - "%player%"
+  - "&l%votes% &rvotes"

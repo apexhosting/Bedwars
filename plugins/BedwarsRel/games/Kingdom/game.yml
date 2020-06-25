@@ -1,0 +1,245 @@
+name: Kingdom
+world: KINGDOMS
+loc1:
+  world: KINGDOMS
+  x: 263.39375311664696
+  y: 106.4789463121569
+  z: 226.16219863597803
+  pitch: 39.659793853759766
+  yaw: 78.4339828491211
+loc2:
+  world: KINGDOMS
+  x: -41.39355109553864
+  y: -58.48898386949058
+  z: 542.7267635688138
+  pitch: -4.308051109313965
+  yaw: 227.369140625
+lobby:
+  world: KINGDOMS
+  x: -125.62953053596176
+  y: 78.0
+  z: 619.5428343584744
+  pitch: 36.23735427856445
+  yaw: -165.0400390625
+minplayers: 4
+record: 214
+record-holders:
+- Smattox
+regionname: KINGDOMS
+time: 1000
+targetmaterial: BED_BLOCK
+autobalance: false
+spawner:
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: KINGDOMS
+    x: 109.67707127024806
+    y: 9.0
+    z: 429.7427176680175
+    pitch: 25.76889419555664
+    yaw: -177.3195343017578
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: KINGDOMS
+    x: 70.93817440195942
+    y: 9.0
+    z: 390.701290343826
+    pitch: 16.911012649536133
+    yaw: -260.2635192871094
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: KINGDOMS
+    x: 109.33633957458278
+    y: 9.0
+    z: 351.6287693873609
+    pitch: 11.394834518432617
+    yaw: -174.2603759765625
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: KINGDOMS
+    x: 148.65165426544732
+    y: 9.0
+    z: 390.3428888063003
+    pitch: 15.622417449951172
+    yaw: -85.15691375732422
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: KINGDOMS
+    x: 112.44218869553639
+    y: 9.0
+    z: 390.6679821400669
+    pitch: 43.243316650390625
+    yaw: 98.84754943847656
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: KINGDOMS
+    x: 109.1604685832809
+    y: 9.0
+    z: 393.5752233104955
+    pitch: 37.56610107421875
+    yaw: 90.15071105957031
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: KINGDOMS
+    x: 106.32325717976693
+    y: 9.0
+    z: 390.50052250892685
+    pitch: 27.741756439208984
+    yaw: 191.01101684570312
+- ==: RessourceSpawner
+  name: gold
+  location:
+    world: KINGDOMS
+    x: 109.72747728106908
+    y: 9.0
+    z: 387.4603108011713
+    pitch: 26.855958938598633
+    yaw: 276.973876953125
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: KINGDOMS
+    x: 109.72166596487506
+    y: 9.0
+    z: 507.5252348667737
+    pitch: 89.42560577392578
+    yaw: 79.72314453125
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: KINGDOMS
+    x: -5.373424867729934
+    y: 9.0
+    z: 390.5400983084367
+    pitch: 79.56120300292969
+    yaw: 123.4495849609375
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: KINGDOMS
+    x: 107.99919899518214
+    y: 9.0
+    z: 273.754670660799
+    pitch: 72.47483825683594
+    yaw: 207.31805419921875
+- ==: RessourceSpawner
+  name: iron
+  location:
+    world: KINGDOMS
+    x: 226.6389071315449
+    y: 9.0
+    z: 391.171651264266
+    pitch: 69.37461853027344
+    yaw: 3.82012939453125
+teams:
+  Red:
+    ==: Team
+    bedfeed:
+      world: KINGDOMS
+      x: 238.0
+      y: 9.0
+      z: 394.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: KINGDOMS
+      x: 228.35061206389096
+      y: 9.0
+      z: 385.7862376319607
+      pitch: 24.440265655517578
+      yaw: -346.3055419921875
+    color: RED
+    name: Red
+    maxplayers: 1
+    bedhead:
+      world: KINGDOMS
+      x: 237.0
+      y: 9.0
+      z: 394.0
+      pitch: 0.0
+      yaw: 0.0
+  Yellow:
+    ==: Team
+    bedfeed:
+      world: KINGDOMS
+      x: 112.0
+      y: 9.0
+      z: 510.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: KINGDOMS
+      x: 113.36656000412592
+      y: 9.0
+      z: 507.2399373958273
+      pitch: 15.018417358398438
+      yaw: -201.71939086914062
+    color: YELLOW
+    name: Yellow
+    maxplayers: 1
+    bedhead:
+      world: KINGDOMS
+      x: 112.0
+      y: 9.0
+      z: 509.0
+      pitch: 0.0
+      yaw: 0.0
+  Blue:
+    ==: Team
+    bedfeed:
+      world: KINGDOMS
+      x: -20.0
+      y: 9.0
+      z: 386.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: KINGDOMS
+      x: -12.900797561781395
+      y: 9.0
+      z: 398.3246492654981
+      pitch: -0.8854779601097107
+      yaw: -106.97601318359375
+    color: BLUE
+    name: Blue
+    maxplayers: 1
+    bedhead:
+      world: KINGDOMS
+      x: -19.0
+      y: 9.0
+      z: 386.0
+      pitch: 0.0
+      yaw: 0.0
+  Green:
+    ==: Team
+    bedfeed:
+      world: KINGDOMS
+      x: 113.0
+      y: 9.0
+      z: 261.0
+      pitch: 0.0
+      yaw: 0.0
+    spawn:
+      world: KINGDOMS
+      x: 106.52980099860368
+      y: 9.0
+      z: 273.0040007494552
+      pitch: 27.05739402770996
+      yaw: -78.06625366210938
+    color: GREEN
+    name: Green
+    maxplayers: 1
+    bedhead:
+      world: KINGDOMS
+      x: 113.0
+      y: 9.0
+      z: 262.0
+      pitch: 0.0
+      yaw: 0.0

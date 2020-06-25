@@ -1,0 +1,27 @@
+usingConfig: true
+config-version: 3
+using-bungeecord: false
+tabmenu:
+  enabled: true
+  header: '&3MyServer\n&bSecond line!\n&fThird line!'
+  footer: animation:test1
+welcome_message:
+  enabled: true
+  title: '&7Welcome back &a{PLAYER}&7!'
+  subtitle: '&7To my server'
+  fadeIn: 20
+  stay: 40
+  fadeOut: 20
+  first-join:
+    title: '&7Welcome to MyServer &a{PLAYER}'
+    subtitle: '&7Hope you enjoy your stay!'
+actionbar-welcome:
+  enabled: true
+  message: '&a&lWelcome!'
+  first-join:
+    message: '&2&lWelcome It''s your first time!'
+number-format:
+  enabled: true
+  format: '#,###.##'
+date-format:
+  format: EEE, dd MMM yyyy HH:mm:ss z
