@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.180.57.12
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1639515771180
+  login: 1639515764276
+money: '0'
+last-account-name: Retrovidya
+lastlocation:
+  world: e5e39fae-d33e-43b7-9ae3-1e763096f11d
+  world-name: bedwars_world
+  x: -94.0
+  y: 149.0
+  z: -104.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: e5e39fae-d33e-43b7-9ae3-1e763096f11d
+  world-name: bedwars_world
+  x: -93.51173246871178
+  y: 147.0
+  z: -113.92617255623506
+  yaw: -151.5000762939453
+  pitch: -2.549992799758911

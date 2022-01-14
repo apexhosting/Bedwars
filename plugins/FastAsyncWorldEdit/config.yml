@@ -1,9 +1,9 @@
 # These first 6 aren't configurable
 issues: "https://github.com/boy0001/FastAsyncWorldedit/issues"
 wiki: "https://github.com/boy0001/FastAsyncWorldedit/wiki/"
-date: "25 Aug 2019 04:00:00 GMT"
-build: "https://ci.athion.net/job/FastAsyncWorldEdit/1278"
-commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/58243b6"
+date: "26 Apr 2021 00:00:00 GMT"
+build: "https://ci.athion.net/job/FastAsyncWorldEdit/1287"
+commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/b67f782"
 platform: "bukkit"
 # Options: cn, de, es, fr, it, nl, ru, tr
 # Create a PR to contribute a translation: https://github.com/boy0001/FastAsyncWorldedit/new/master/core/src/main/resources
@@ -12,7 +12,7 @@ language: ''
 #  - true = update automatically in the background
 #  - confirm = prompt an admin to confirm each update
 #  - false = do not update the plugin
-update: "true"
+update: "confirm"
 # Send anonymous usage statistics
 metrics: true
 # Set true to enable WorldEdit restrictions per region (e.g. PlotSquared or WorldGuard).
@@ -124,7 +124,7 @@ experimental:
 queue:
   # This should equal the number of processors you have
   #  - Set this to 1 if you need reliable `/timings`
-  parallel-threads: 12
+  parallel-threads: 2
   progress:
     # Display constant titles about the progress of a user's edit
     #  - false = disabled
@@ -237,6 +237,16 @@ paths:
   # Each player has their own sub directory for schematics
   per-player-schematics: true
   commands: "commands"
+
+tab-completion:
+  # Entirely disabled tab completion to completely avoid exploits
+  enabled: true
+  # Max time tab-completes can attempt to operate for until being cancelled (ms)
+  max-time: 50
+  # When a tab-complete hits the max time, should a global cooldown be initiated?
+  global-cooldown: true
+  # Amount of time to wait before allowing tab completions again (ms)
+  cooldown-length: 150
 
 # Region restriction settings
 region-restrictions-options:

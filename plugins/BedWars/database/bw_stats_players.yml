@@ -1,0 +1,17 @@
+data:
+  bdc83502-6d75-4c26-a633-729e9ed81aee:
+    kills: 7
+    wins: 6
+    score: 795
+    loses: 18
+    name: AllanDev
+    destroyedBeds: 5
+    deaths: 25
+  f0e7f028-4955-4dc8-8e40-d334ef0bd19a:
+    kills: 25
+    wins: 23
+    score: 2850
+    loses: 5
+    name: AllanStrat
+    destroyedBeds: 18
+    deaths: 9

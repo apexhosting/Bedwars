@@ -65,6 +65,8 @@ worldedit:
   general:
     mask_disabled: Global mask disabled
     mask: Global mask set
+    texture_disabled: Texturing reset
+    texture_set: Set texturing to %s1
     source_mask_disabled: Global source mask disabled
     source_mask: Global source mask set
     transform_disabled: Global transform disabled
@@ -73,8 +75,6 @@ worldedit:
     fast_disabled: Fast mode disabled
     place_enabled: 'Now placing at pos #1.'
     place_disabled: Now placing at the block you stand in.
-    texture_disabled: Texturing reset
-    texture_set: Set texturing to %s1
   copy:
     command_copy: '%s0 blocks were copied.'
   cut:
@@ -99,9 +99,9 @@ worldedit:
     command_history_clear: History cleared
     command_redo_error: Nothing left to redo. (See also `/inspect` and `/frb`)
     command_history_other_error: Unable to find session for %s0.
-    command_redo_success: Redo successful.
+    command_redo_success: Redo successful%s0.
     command_undo_error: Nothing left to undo. (See also `/inspect` and `/frb`)
-    command_undo_success: Undo successful.
+    command_undo_success: Undo successful%s0.
   operation:
     operation: Operation queued (%s0)
   selection:
@@ -125,10 +125,10 @@ worldedit:
     world_is_loaded: The world shouldn't be in use when executing. Unload the world,
       or use use -f to override (save first)
   brush:
-    brush_reset: Reset your brush.
+    brush_reset: Reset your brush. (SHIFT + Click)
     brush_none: You aren't holding a brush!
     brush_scroll_action_set: Set scroll action to %s0
-    brush_scroll_action_unset: Removed scrol action
+    brush_scroll_action_unset: Removed scroll action
     brush_visual_mode_set: Set visual mode to %s0
     brush_target_mode_set: Set target mode to %s0
     brush_target_mask_set: Set target mask to %s0
@@ -143,6 +143,8 @@ worldedit:
     brush_smooth: 'Note: Use the blend brush if you want to smooth overhangs or caves.'
     brush_spline: Click to add a point, click the same spot to finish
     brush_line_primary: Added point %s0, click another position to create the line
+    brush_catenary_direction: Added point %s0, click the direction you want to create
+      the spline
     brush_line_secondary: Created spline
     brush_spline_primary_2: Added position, Click the same spot to join!
     brush_spline_secondary_error: Not enough positions set!
@@ -156,8 +158,6 @@ worldedit:
     brush_transform_disabled: Brush transform disabled
     brush_transform: Brush transform set
     brush_material: Brush material set
-    brush_catenary_direction: Added point %s0, click the direction you want to create
-      the spline
   rollback:
     rollback_element: Undoing %s0
   tool:

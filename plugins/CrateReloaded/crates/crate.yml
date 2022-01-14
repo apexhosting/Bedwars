@@ -1,0 +1,312 @@
+############################################
+# +---------------------------------------+#
+# |         Config Revision 17            |#
+# +---------------------------------------+#
+############################################
+
+# -------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------
+# An example of a key crate with animations (CSGO)
+TagsCrate:
+    type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
+    item: 'TRIPWIRE_HOOK 1 name:&8[&b&lTAGS_&7&lKEY&8] lore:&7Get_cool_nametags.|&bRight_click_to_open! glow:true'
+    animation: 'CSGO'
+    display-name: '&8[&b&lTAGS &7&lCRATE&8]'
+    holographic:
+        - '{crate-name}'
+        - '{lore:1}'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&fClick_here_to_open_{crate}!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&4No'
+    preview:
+        enabled: true
+        rows: 2
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '{p}You have opened a {crate}'
+        broadcast: ''
+    effect:
+        1:
+          class: Original
+          category: REWARD
+        2:
+          class: Sound
+          category: ANIMATION
+          sound: BLOCK_WOOD_PLACE
+        3:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+          CATEGORY: END
+        4:
+          class: Explode
+          CATEGORY: PUSHBACK
+    reward:
+        minimum-rewards: 1
+        maximum-rewards: 1
+        rewards:
+            - 'chance:(7), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$50 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 50)'
+            - 'chance:(5), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$100 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 100)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$200 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 200)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$300 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 300)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$400 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 400)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$500 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 500)'
+            - 'chance:(3), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$600 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 600)'
+            - 'chance:(3), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$700 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 700)'
+            - 'chance:(3), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$800 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 800)'
+            - 'chance:(3), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.smooth true)'
+            - 'chance:(3), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.cooltrue)'
+            - 'chance:(3), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.afk true)'
+            - 'chance:(3), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.ez true)'
+            - 'chance:(3), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.chill true)'
+            - 'chance:(3), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.pog true)'
+            - 'chance:(3), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.happy true)'
+            - 'chance:(3), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.booster true)'
+            - 'chance:(3), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.winner true)'
+            - 'chance:(2), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.millionaire true)'
+            - 'chance:(2), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.icebreaker true)'
+            - 'chance:(2), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.pro true)'
+            - 'chance:(2), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.expert true)'
+            - 'chance:(2), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.kappa true)'
+            - 'chance:(2), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.lol true)'
+            - 'chance:(2), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.oof true)'
+            - 'chance:(2), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.yikes true)'
+            - 'chance:(2), display:(NAME_TAG 1 sharpness:1 knockback:1 unbreakable:true name:&8[&7Nametag&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set deluxetags.tag.classic true)'
+ParticlesCrate:
+    type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
+    item: 'TRIPWIRE_HOOK 1 name:&8[&d&lPARTICLES_&7&lKEY&8] lore:&7Get_cool_particles.|&dRight_click_to_open! glow:true'
+    animation: 'CSGO'
+    display-name: '&8[&d&lPARTICLES &7&lCRATE&8]'
+    holographic:
+        - '{crate-name}'
+        - '{lore:1}'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&fClick_here_to_open_{crate}!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&4No'
+    preview:
+        enabled: true
+        rows: 2
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '{p}You have opened a {crate}'
+        broadcast: ''
+    effect:
+        1:
+          class: Original
+          category: REWARD
+        2:
+          class: Sound
+          category: ANIMATION
+          sound: BLOCK_WOOD_PLACE
+        3:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+          CATEGORY: END
+        4:
+          class: Explode
+          CATEGORY: PUSHBACK
+    reward:
+        minimum-rewards: 1
+        maximum-rewards: 1
+        rewards:
+            - 'chance:(7), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$50 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 50)'
+            - 'chance:(5), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$100 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 100)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$200 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 200)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$300 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 300)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$400 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 400)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$500 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 500)'
+            - 'chance:(3), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$600 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 600)'
+            - 'chance:(3), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$700 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 700)'
+            - 'chance:(3), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$800 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 800)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.watersplash true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.dripwater true)'           
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.driplava true)'           
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.crit true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.spell true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.instantspell true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.mobspell true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.witchspell true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&7Common flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.angryvillager true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.happyvillager true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.note true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.portal true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.enchantment true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.flame true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.redstone true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.heart true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.fireworkspark true)'
+            - 'chance:(3), display:(NETHER_STAR 1 sharpness:1 knockback:1 unbreakable:true name:&8[&dParticles&8] lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.particles.smoke true)'
+HatsCrate:
+    type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
+    item: 'TRIPWIRE_HOOK 1 name:&8[&e&lHATS_&7&lKEY&8] lore:&7Get_cool_hats.|&eRight_click_to_open! glow:true'
+    animation: 'CSGO'
+    display-name: '&8[&e&lHATS &7&lCRATE&8]'
+    holographic:
+        - '{crate-name}'
+        - '{lore:1}'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&fClick_here_to_open_{crate}!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&4No'
+    preview:
+        enabled: true
+        rows: 2
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '{p}You have opened a {crate}'
+        broadcast: ''
+    effect:
+        1:
+          class: Original
+          category: REWARD
+        2:
+          class: Sound
+          category: ANIMATION
+          sound: BLOCK_WOOD_PLACE
+        3:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+          CATEGORY: END
+        4:
+          class: Explode
+          CATEGORY: PUSHBACK
+    reward:
+        minimum-rewards: 1
+        maximum-rewards: 1
+        rewards:
+            - 'chance:(7), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$50 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 50)'
+            - 'chance:(5), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$100 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 100)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$200 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 200)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$300 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 300)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$400 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 400)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$500 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 500)'
+            - 'chance:(3), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$600 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 600)'
+            - 'chance:(3), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$700 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 700)'
+            - 'chance:(3), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$800 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 800)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.hamburger true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.chocolatedonut true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.blackchocolatebar true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.whitechocolatebar true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.candycane true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.diamondblock true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.grin true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.unitedstates true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.australia true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.slime true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.enderman true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.cow true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.ghast true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.irongolem true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.pokeball true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.jake true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.doge true)'
+            - 'chance:(2), display:(player_head 1 sharpness:1 name:&8[&eHats&8] player:Hat lore:&8Tier:&aInteresting flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.hats.koala true)'
+BannersCrate:
+    type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
+    item: 'TRIPWIRE_HOOK 1 name:&8[&a&lBANNERS_&7&lKEY&8] lore:&7Get_cool_banners.|&aRight_click_to_open! glow:true'
+    animation: 'CSGO'
+    display-name: '&8[&a&lBANNERS &7&lCRATE&8]'
+    holographic:
+        - '{crate-name}'
+        - '{lore:1}'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&fClick_here_to_open_{crate}!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&4No'
+    preview:
+        enabled: true
+        rows: 2
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '{p}You have opened a {crate}'
+        broadcast: ''
+    effect:
+        1:
+          class: Original
+          category: REWARD
+        2:
+          class: Sound
+          category: ANIMATION
+          sound: BLOCK_WOOD_PLACE
+        3:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+          CATEGORY: END
+        4:
+          class: Explode
+          CATEGORY: PUSHBACK
+    reward:
+        minimum-rewards: 1
+        maximum-rewards: 1
+        rewards:
+            - 'chance:(7), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$50 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 50)'
+            - 'chance:(5), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$100 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 100)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$200 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 200)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$300 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 300)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$400 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 400)'
+            - 'chance:(4), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$500 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 500)'
+            - 'chance:(3), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$600 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 600)'
+            - 'chance:(3), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$700 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 700)'
+            - 'chance:(3), display:(GOLD_INGOT 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aCASH&8] lore:&2$800 flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(eco give {player} 800)'
+            - 'chance:(1), display:(GREEN_BANNER 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aBanner&8] lore:&8Tier:&c&lEPIC flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.banners.snowbunny true)'
+            - 'chance:(1), display:(GREEN_BANNER 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aBanner&8] lore:&8Tier:&c&lEPIC flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.banners.reindeer true)'
+            - 'chance:(1), display:(GREEN_BANNER 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aBanner&8] lore:&8Tier:&c&lEPIC flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.banners.holidaytree true)'
+            - 'chance:(1), display:(GREEN_BANNER 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aBanner&8] lore:&8Tier:&c&lEPIC flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.banners.santa true)'
+            - 'chance:(1), display:(GREEN_BANNER 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aBanner&8] lore:&8Tier:&c&lEPIC flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.banners.holidaywreath true)'
+            - 'chance:(1), display:(GREEN_BANNER 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aBanner&8] lore:&8Tier:&c&lEPIC flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.banners.heart true)'
+            - 'chance:(1), display:(GREEN_BANNER 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aBanner&8] lore:&8Tier:&c&lEPIC flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.banners.guitar true)'
+            - 'chance:(1), display:(GREEN_BANNER 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aBanner&8] lore:&8Tier:&c&lEPIC flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.banners.redpool true)'
+            - 'chance:(1), display:(GREEN_BANNER 1 sharpness:1 knockback:1 unbreakable:true name:&8[&aBanner&8] lore:&8Tier:&c&lEPIC flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(lp user {player} permission set gadgetsmenu.banners.portal true)'
+RewardsCrate:
+    type: KEYCRATE # Set this crate to a block, and players may right click the block to use "keys"
+    item: 'TRIPWIRE_HOOK 1 name:&8[&c&lREWARDS_&7&lKEY&8] lore:&7Get_cool_rewards.|&cRight_click_to_open! glow:true'
+    animation: 'CSGO'
+    display-name: '&8[&c&lREWARDS &7&lCRATE&8]'
+    holographic:
+        - '{crate-name}'
+        - '{lore:1}'
+    confirmation:
+        enabled: true
+        accept-button: 'GREEN_STAINED_GLASS_PANE 1 name:&aYes lore:&fClick_here_to_open_{crate}!'
+        decline-button: 'RED_STAINED_GLASS_PANE 1 name:&4No'
+    preview:
+        enabled: true
+        rows: 2
+    buy:
+        enabled: false
+        cost: 0
+    message:
+        open: '{p}You have opened a {crate}'
+        broadcast: ''
+    effect:
+        1:
+          class: Original
+          category: PERSISTENT
+        2:
+          class: Sound
+          category: ANIMATION
+          sound: BLOCK_WOOD_PLACE
+        3:
+          class: Sound
+          sound: ENTITY_BAT_TAKEOFF
+          CATEGORY: END
+        4:
+          class: Explode
+          CATEGORY: PUSHBACK
+    reward:
+        minimum-rewards: 1
+        maximum-rewards: 1
+        rewards:
+            - 'chance:(7), display:(TRIPWIRE_HOOK 1 sharpness:1 knockback:1 unbreakable:true name:&8[&b&lTAGS&7&lKEY&8] lore:&8Tier:&4&lUNIQUE flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(cr give to {player} TagsCrate)'
+            - 'chance:(3), display:(TRIPWIRE_HOOK 1 sharpness:1 knockback:1 unbreakable:true name:&8[&c&lBANNER&7&lKEY&8] lore:&8Tier:&4&lUNIQUE flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(cr give to {player} BannersCrate)'
+            - 'chance:(7), display:(TRIPWIRE_HOOK 1 sharpness:1 knockback:1 unbreakable:true name:&8[&e&lHATS&7&lKEY&8] lore:&8Tier:&4&lUNIQUE flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(cr give to {player} HatsCrate)'
+            - 'chance:(3), display:(TRIPWIRE_HOOK 1 sharpness:1 knockback:1 unbreakable:true name:&8[&d&lPARTICLES&7&lKEY&8] lore:&8Tier:&4&lUNIQUE flag:HIDE_UNBREAKABLE,HIDE_ENCHANTS), cmd:(cr give to {player} ParticlesCrate)'

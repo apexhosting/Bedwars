@@ -1,0 +1,35 @@
+title:
+  - '&e&lBEDWARS'
+text:
+  - ''
+  - '&7%localtime_time%'
+  - '&e{PLAYER}!'
+  - ''
+  - '&7Wins: &a%bedwars_stats_kills%'
+  - '&7Kills: &e%bedwars_stats_wins%'
+  - '&7Beds destroyed: &b%bedwars_stats_destroyed_beds%'
+  - ''
+  - '&7Total games: &c%bedwars_stats_games%'
+  - '&7Score: &d%bedwars_stats_score%'
+  - ''
+  - '&ebw.apexmc.co'
+updater:
+  title: 3
+  text: 5
+enabledWorlds:
+  - bedwars_world
+changeableText:
+  perm_info:
+    text:
+      - '&cscoreboard.default'
+      - '&7scoreboard.default'
+      - '&6scoreboard.default'
+      - '&bscoreboard.default'
+      - '&dscoreboard.default'
+    interval: 10
+scroller:
+  info:
+    text: '&eThis server is running on &e&lQuickBoard! &eThe &c&lbest free scoreboard system on &6&lSpigot!'
+    width: 28
+    spaceBetween: 4
+    update: 2

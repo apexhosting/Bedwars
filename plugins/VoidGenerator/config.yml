@@ -1,5 +1,0 @@
-# This is the main configuration file for VoidGenerator. 
-#  Spigot: https://www.spigotmc.org/resources/25391/
-config_version: 1
-check_for_updates: true
-enable_metrics: true

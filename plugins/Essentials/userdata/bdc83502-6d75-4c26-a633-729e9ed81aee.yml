@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 201.220.139.181
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1642018849604
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1642173213099
+  login: 1642173609314
+money: '0'
+last-account-name: AllanDev
+lastlocation:
+  world: Amazon
+  world-name: Amazon
+  x: -75.03158428254056
+  y: 63.0
+  z: -76.5910525788435
+  yaw: 261.76404
+  pitch: 20.454237
+logoutlocation:
+  world: bedwars_world
+  world-name: bedwars_world
+  x: -93.53170323052132
+  y: 148.0
+  z: -110.2290853395832
+  yaw: 254.17755
+  pitch: -1.3499951
+lastAccountName: AllanDev
+ipAddress: 201.220.139.181

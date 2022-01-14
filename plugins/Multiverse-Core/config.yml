@@ -18,8 +18,8 @@
 multiverse-configuration:
   ==: com.onarandombox.MultiverseCore.MultiverseCoreConfiguration
   enforceaccess: 'false'
-  prefixchat: 'true'
-  prefixchatformat: '%chat%'
+  prefixchat: 'false'
+  prefixchatformat: '[%world%]%chat%'
   useasyncchat: 'true'
   teleportintercept: 'true'
   firstspawnoverride: 'true'
@@ -28,7 +28,7 @@ multiverse-configuration:
   silentstart: 'false'
   messagecooldown: '5000'
   version: '2.9'
-  firstspawnworld: world
+  firstspawnworld: bedwars_world
   teleportcooldown: '1000'
   defaultportalsearch: 'false'
   portalsearchradius: '128'

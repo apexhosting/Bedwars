@@ -1,0 +1,181 @@
+# Citizens NPC Storage
+
+
+
+last-created-npc-id: 7
+npc:
+  '7':
+    metadata:
+      cached-skin-uuid-name: allandev
+      cached-skin-uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
+      nameplate-visible: 'false'
+    name: a
+    uuid: 7fbfa373-6d50-4953-bf7c-1ec86be56242
+    traits:
+      location:
+        bodyYaw: 29.361328
+        world: bedwars_world
+        x: '-85.4319'
+        y: '146.0'
+        z: '-121.6381'
+        yaw: '29.3613'
+        pitch: '-9.3001'
+      sneak:
+        sneaking: false
+      skintrait:
+        fetchDefaultSkin: true
+        signature: xxExDxDHrCuT9kw+V48R1VEgqzafPsc6Ts/zEFIspepe2IKCfRcJstKTHF0IPDitKjcWnnYTPSI7ebEVmpJKpVZbFT1GTn+pMBhXGFgKnHq3GIdRPs7/ukh8N03X2tMKRwTklVOUSQq5kdEmaH5I3ymyUsLlnarrkOLu81J6wNZpUvPCvTKNZJOGOVXQajTJv8+YacQPUeixpnOPoryxW3p5HN2m8c2zNApkXCDqRoPNe4x3Ah2GoDe2o/8P/7HALdGvt9ZLuLuGglde4KujAmSj7ZhYt4zrlp05Yc5VrO2qdZLSX44rOwYHAFKEcNCOKNq48b9AlK3i6YTntZ0LftYtAn6eKJcxRa1bUA+SCxP1vqa0L+ukBkFRTgFnshoyxn2X39aGnconrPqAlPzGSMos8aNNtf4YDlkPCD3joE3eTmjm4uZKN1qzetfQlDQ9cL8Y5ZK/A6LtZCayfCnmghZvtZ8qsl2hKpXOqZ6NMV/20H0J07LJeBG2UeBo+u4j8ZnUZb+4zle8IzCLpclJf+5j+g1mxwBQpZ/s8qE0BAyHJ8Qbf4hqlBxdlqaFIZy3RnVuJs/fZmWnaRWGBn7Xfja/PRMG+25C07TpUnrXmMwd62L8aFsMwTyozgCgwFmsn48+ElDI8OGVFJPoXz5xFuFpFClrHOd5NpwBPEFHYHg=
+        skinName: allandev
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0MjE2NzU0NTQ0NywKICAicHJvZmlsZUlkIiA6ICJiZGM4MzUwMjZkNzU0YzI2YTYzMzcyOWU5ZWQ4MWFlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbGxhbkRldiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NmUzOTVkZDcxMzljYWZhNWZlMmZjMTQ1MmZkZGU2MDYxM2IzMGZkYzhhZmNhOGMxYjcxYTZiNDkwZTc1N2UwIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      spawned: true
+      type: PLAYER
+      mirror: true
+    traitnames: location,owner,spawned,scoreboardtrait,skintrait,mounttrait,inventory,equipment,sneak,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: §b§lTOP 10
+    uuid: bcd9ced3-3405-4e9f-9186-df7fc8a0c336
+    traits:
+      location:
+        bodyYaw: 305.22412
+        world: bedwars_world
+        x: '-102.2422'
+        y: '146.0'
+        z: '-118.416'
+        yaw: '-54.7759'
+        pitch: '-9.6901'
+      sneak:
+        sneaking: false
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: NSXARhZXlVRysNc1dWv2Dq645HqaLG0W92Vb/z6HEu2G/ZULtNurLOJDWdvVsCkPcGJUnt+dDUAxo1xQ2+HLuU+ZpvPbZBxbi4MgaQMQr6w0lFo1QQXYIvQzhJhFZv73eBcVbILI9q0CDmhzMK5q/toLGWvCktN9ph8M3/kgYqwYB1XjJObw5o3MQTuILvBPIZ2NOOGuOnArdkJvGDbTvEivq+5F+WgV+QC1slGOTgw993PSQSyFGABfc7QLYOIYWdiZl/PzTZ6N2n7GJIkMqUH46iSXPuqutggHgLWDBzE2XJVEhpwX0fEU5uLk7MatQPo/B+UswFNaEURCEu1iESEAtx6ny6kT6XclPKnxhZA+jXsdNz5BCLpMKWMiAtdaFMZXUxc5dMjJAgJ/mTL7MuvdODWIGVEIByL8WzyWF0BeX8lIwwAv1fAGzQAlnR4g5sefkfk/L339dp20LjtKGe78KptlobtG5PAqaaqG1LE0TVTKCJ8O5Kw0uYoIFgjvzu7sWzWvPh70VV/rQJBt5kg3vk+1n2IMDh1drudsp4AiIgCpT+Bmls+v35lTM1+O/SUriY0ZIICP8UAyK7nJwIZH85EwQddUf6oBhUGSYqmFbEwUlDYnBEwv8mu056JNhKLLGTTpZ5gv/SfQMZ/jv36FZTQlVvGMfkUkw1tBBms=
+        skinName: lordsherman
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0MjE2NzU1NjQ2MCwKICAicHJvZmlsZUlkIiA6ICI3ZTQxODk5Mzc0ODI0M2IyYThmNjc0MGQ2YTMwOGNlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3JkU2hlcm1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MzlmYTk1YzU0NzNhMzBkMWEwNzM2ZTFiZjQ4NTljZTZjNjlkZWYwZTIyM2M2MDhlYTdmNjQwYzg5ZTk2YWQyIgogICAgfQogIH0KfQ==
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      spawned: true
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: bw leaderboard
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: location,commandtrait,owner,spawned,scoreboardtrait,skintrait,mounttrait,inventory,equipment,sneak,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: lordsherman
+      cached-skin-uuid: 7e418993-7482-43b2-a8f6-740d6a308ce5
+  '5':
+    name: §e§lCOSMETICS
+    uuid: c32b7dd8-cf4c-4218-8281-104485fccf3c
+    traits:
+      location:
+        bodyYaw: 331.4541
+        world: bedwars_world
+        x: '-102.5746'
+        y: '146.0'
+        z: '-124.7327'
+        yaw: '-28.5459'
+        pitch: '-6.9899'
+      sneak:
+        sneaking: false
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: dnY21ep8e9mt2DMyvS46LzWB8pn+yW1jJW7SRB2N5XTj7oIbr7+xNGYS9iRCHpH1RWA/BHzHlJdq+ZPHWm+InsQbD+wGjNKAAmYMV3WqMHmsoRT7Nh1jRzKGv1S3r0D2WrnFFKd5Id9ke6OT3Fr+XmOyGVPBwFI3af9HvVJ9RGGX1F5goqT2dHdF0aqxuwM8wXxhJX+V+PBCqEhaTdM3IvxYvgTgG2nNGcVYkRJM3gQ762AIuS6grWB2EoL12m53XJcup8gA+EmxWi1ymKzbQRcoozXx1wxZ4AFe7cQyrRpPqUHE9CmJyNXjJdCQnk72kZ2jgarLj5F361ohCpBKL2o/LGnLWqPdbvdHXVZN1aX2oXlY/UkAOS7jy2me5l3gMxjr/ivEpFROR7P8oTcJlPiy4jtRyxeRCSTNGEk6TR1QBoIAsPJlYmpJyCxODQgxpLazn8PtLH4CoAEYlqh3gRGvN6b+pSSOKbibOLVRWjNDborC6sdtmK09LYyKWIWqIBs7crZgN+SvsOjkLyU9wGJHPuOQZhb7c+h/LrZNCNLHWtfed7fTCTtsCwr3eByUc3gqmHcd8Vr7am1hkjHl7PPBYKyxSspItXvBR9z7dPGiO06nhbO9DnMXGMQtle+40+93pBEtM9hOjJRfYUhgYlT9DXZgp2TG0yN+aP6va4c=
+        skinName: spookieghost
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0MjE2NzU3MjU1MSwKICAicHJvZmlsZUlkIiA6ICI4YjJmNmEwNGU4ZmQ0ZjdhYmYwMGQxNmMyMDg5MzA5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcG9va2llR2hvc3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ3N2MwMTI0ODc1NGQzMzdlY2I3MGYxNTIwZTQwODZlZTkzYWRjZTZlN2Q5ZDZmNDk2ODVmMjYxNmYxOTQ4YyIKICAgIH0KICB9Cn0=
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      spawned: true
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: gmenu main
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: location,commandtrait,owner,spawned,scoreboardtrait,skintrait,mounttrait,inventory,equipment,sneak,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: spookieghost
+      cached-skin-uuid: 8b2f6a04-e8fd-4f7a-bf00-d16c2089309c
+  '4':
+    name: §c§lSHOP
+    uuid: 27740c59-2c07-47df-b38c-d5f6de090d89
+    traits:
+      location:
+        bodyYaw: 327.552
+        world: bedwars_world
+        x: '-102.5923'
+        y: '146.0'
+        z: '-121.5148'
+        yaw: '-32.448'
+        pitch: '-7.2899'
+      sneak:
+        sneaking: false
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: qwReTMuAt+IaHDi35ekflz1+Y0lsoAKxP5kE9PIJY4FYjBXkudMgOd8StE0l1Qs/HSCpebuKzEH4jNuSy3gxrye7H649v/XmXK26CqkIOi2hBdtCXexrc0ePW4d9a6aITJJ9O/TThBGPAUL1xUbdtZ5ctPsoEd5+gWmnREkoExGD5ykDZJcvx94KPMO6W6YoXUSg4DGbAyPjWX4qywtWDqENWJsOaAMu7NoGLlp9HPJON9IPJQOOX7lg7Mb9I/13SADNDfPH6s8RmNhaC7mJRr8yDLX2H/g0CoW5z7prZ31G3BIZwkDJ6Ws4ZFMfuw6LoXjvTzWXD3V9H1CZstEdoAVlBW/gQGES3lxwyTnA1mJZbVvs35eOYakXfdPLAvAqC9ddcevr8zzYunoJipitOIO4qp1AHAlEJURLRrGSSpL4N/ZHlVSNTAv7B+s0PZzlPr8/Fh52Pj5FGN8YCSmYe0vRaImL4Ri/NtSHvL8EEYSf8HHGwnSHeOUN1RAn/yY97qLD3IWcv/TDrZeLccbJPLLeWe+cwvec4R5yy+7/5WYOK5jE27EDjyK8q39rc+v1MprdJg8oaSxMxtPNEprQHIqZRmrfaxqQsTVzIeTZfJJlk4h3mN8z1sWQIgaUCWmf73NSrsCgIDUEr4yqHtJPj0qWBVfdsvZ0hJVc/rzBZvQ=
+        skinName: eliasegg
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0MjE2NzYwNzQ1NSwKICAicHJvZmlsZUlkIiA6ICIxMGM0OTk0NTU2ZjM0YTE5OWYxZjgwODdmZWE5MmIwNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGlhc2VnZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYTdhMDhkNDBiMWQ0NjI5Njk3MzM3ZTM2YzE1OGRmNDM4N2E3ODJkNmRiYTA3YTRjNjg0MmNjNThhYjZjOTk1IgogICAgfQogIH0KfQ==
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      spawned: true
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: crateshop
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: location,commandtrait,owner,spawned,skintrait,scoreboardtrait,mounttrait,inventory,equipment,sneak,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: eliasegg
+      cached-skin-uuid: 10c49945-56f3-4a19-9f1f-8087fea92b06
