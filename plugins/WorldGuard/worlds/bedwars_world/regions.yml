@@ -12,7 +12,8 @@
 regions:
     __global__:
         members: {}
-        flags: {build: deny, invincible: allow, fall-damage: deny, use: allow, pvp: deny}
+        flags: {build: deny, use: allow, invincible: allow, fall-damage: deny, pvp: deny,
+            chest-access: allow}
         owners: {}
         type: global
         priority: 0

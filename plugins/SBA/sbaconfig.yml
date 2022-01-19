@@ -29,7 +29,7 @@ allowed-item-drops:
 give-killer-resources: true
 remove-sword-on-upgrade: true
 block-players-putting-certain-items-onto-chest: true
-disable-armor-inventory-movement: true
+disable-armor-inventory-movement: false
 floating-generator:
     enabled: true
     height: 2.5

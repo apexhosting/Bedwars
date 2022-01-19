@@ -239,14 +239,14 @@ stores:
   loc: 77.08522391734898;67.0;-21.670560551341623;178.79767;-1.8010254
   parent: 'false'
   shop: null
-  name: §a§lVillager_shop
+  name: §a§lSHOP
   skin: null
   type: VILLAGER
 - isBaby: 'false'
   loc: -34.69999998807907;67.0;76.91226941636829;-89.70064;-0.15025307
   parent: 'false'
   shop: null
-  name: §a§lVillager_shop
+  name: §a§lSHOP
   skin: null
   type: VILLAGER
 - isBaby: 'false'
@@ -260,7 +260,7 @@ stores:
   loc: 22.30000001192093;67.0;76.88941954530263;269.6975;-1.0507156
   parent: 'false'
   shop: null
-  name: §a§lVillager_shop
+  name: §a§lSHOP
   skin: null
   type: VILLAGER
 - isBaby: 'false'
@@ -281,14 +281,14 @@ stores:
   loc: -76.00622889148006;67.0;22.30000001192093;359.247;-1.200295
   parent: 'false'
   shop: null
-  name: §a§lVillager_shop
+  name: §a§lSHOP
   skin: null
   type: VILLAGER
 - isBaby: 'false'
   loc: 35.69999998807907;67.0;-76.01776644987288;89.694336;-1.5012419
   parent: 'false'
   shop: null
-  name: §a§lVillager_shop
+  name: §a§lSHOP
   skin: null
   type: VILLAGER
 - isBaby: 'false'
@@ -302,7 +302,7 @@ stores:
   loc: -76.02485913551592;67.0;-34.45843854564674;358.2;-0.15041043
   parent: 'false'
   shop: null
-  name: §a§lVillager_shop
+  name: §a§lSHOP
   skin: null
   type: VILLAGER
 - isBaby: 'false'
@@ -323,14 +323,14 @@ stores:
   loc: -21.343635661868944;67.0;-76.0186641256099;92.100586;-2.4004018
   parent: 'false'
   shop: null
-  name: §a§lVillager_shop
+  name: §a§lSHOP
   skin: null
   type: VILLAGER
 - isBaby: 'false'
   loc: 77.2149529271122;67.0;35.69999998807907;181.34544;-0.30064312
   parent: 'false'
   shop: null
-  name: §a§lVillager_shop
+  name: §a§lSHOP
   skin: null
   type: VILLAGER
 - isBaby: 'false'

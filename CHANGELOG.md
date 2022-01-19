@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2]
+
+### Changed
+
+- Adjusted shop prices.
+- Corrected cosmectic permissions.
+
 ## [1.1]
 
 ### Changed
@@ -20,5 +27,6 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[1.2]: https://github.com/apexhosting/Bedwars/releases/tag/1.2
 [1.1]: https://github.com/apexhosting/Bedwars/releases/tag/1.1
 [1.0]: https://github.com/apexhosting/Bedwars/releases/tag/1.0

@@ -33,7 +33,7 @@ npc:
       spawned: true
       type: PLAYER
       mirror: true
-    traitnames: location,owner,spawned,scoreboardtrait,skintrait,mounttrait,inventory,equipment,sneak,type
+    traitnames: mounttrait,spawned,inventory,equipment,skintrait,sneak,location,type,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -77,7 +77,7 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: location,commandtrait,owner,spawned,scoreboardtrait,skintrait,mounttrait,inventory,equipment,sneak,type
+    traitnames: mounttrait,spawned,skintrait,inventory,equipment,commandtrait,sneak,location,type,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -124,7 +124,7 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: location,commandtrait,owner,spawned,scoreboardtrait,skintrait,mounttrait,inventory,equipment,sneak,type
+    traitnames: mounttrait,spawned,inventory,skintrait,equipment,commandtrait,sneak,location,type,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -171,7 +171,7 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
-    traitnames: location,commandtrait,owner,spawned,skintrait,scoreboardtrait,mounttrait,inventory,equipment,sneak,type
+    traitnames: mounttrait,spawned,skintrait,inventory,equipment,commandtrait,sneak,location,type,scoreboardtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

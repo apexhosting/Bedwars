@@ -88,7 +88,7 @@ data:
 - stack: "DIAMOND_SWORD;1;Swords;Click here to get sword for attacking your enemies"
   column: center
   items:
-   - price: 8 of iron
+   - price: 8 of gold
      stack:
       type: STICK
       enchants:
@@ -142,12 +142,12 @@ data:
 - stack: "BOW;1;Bows;Prove yourself as a marksman with these wonderful bows"
   column: right
   items:
-   - price: 3 of gold
+   - price: 7 of gold
      stack:
       type: BOW
       enchants:
        ARROW_INFINITE: 1
-   - price: 7 of gold
+   - price: 10 of gold
      stack:
       type: BOW
       enchants:
@@ -172,7 +172,7 @@ data:
        ARROW_INFINITE: 1
        ARROW_FIRE: 1
        ARROW_KNOCKBACK: 1
-   - ARROW for 1 of gold
+   - ARROW for 10 of gold
 
 - stack: "COOKED_PORKCHOP;1;Eat;Are you hungry? Get something to eat."
   row: 3
@@ -251,7 +251,7 @@ data:
      properties: "applycolorbyteam"
      stack: WOOL;16
    - COBBLESTONE;16 for 7 of iron
-   - IRON_BLOCK;16 for 3 of iron
+   - IRON_BLOCK;16 for 12 of gold
    - GLOWSTONE;16 for 15 of iron
    - price: 1 of gold
      properties: "applycolorbyteam"
@@ -404,7 +404,7 @@ data:
       type: IRON_PICKAXE
       enchants:
        EFFICIENCY: 1
-   - price: 6 of iron
+   - price: 10 of gold
      stack:
       type: IRON_PICKAXE
       enchants:

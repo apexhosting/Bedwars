@@ -261,8 +261,9 @@ chat:
 rewards:
   enabled: true
   player-win:
-  - /eco give {player} 200
+  - /eco give {player} 500
   - /tell {player} &7[&a&lWIN&7] You've received &a200 &7CASH for the win!
+  - /mysterydust add {player} 250
   player-end-game:
   - /example {player} {score}
   player-destroy-bed:
