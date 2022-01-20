@@ -13,7 +13,7 @@
 
 
 settings:
-  allow-end: true
+  allow-end: false
   warn-on-overload: true
   permissions-file: permissions.yml
   update-folder: update
@@ -22,8 +22,6 @@ settings:
   query-plugins: true
   deprecated-verbose: default
   shutdown-message: Server closed
-  ping-packet-limit: 100
-  use-exact-login-location: false
 spawn-limits:
   monsters: 70
   animals: 15
@@ -43,3 +41,6 @@ database:
   driver: org.sqlite.JDBC
   password: walrus
   url: jdbc:sqlite:{DIR}{NAME}.db
+worlds:
+  bedwars_world:
+    generator: VoidWorld

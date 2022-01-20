@@ -1,0 +1,12 @@
+thebridge_world:
+- world=thebridge_world,x=197.0,y=118.0,z=-44.0,crate=ParticlesCrate
+- world=thebridge_world,x=194.0,y=117.0,z=-44.0,crate=HatsCrate
+- world=thebridge_world,x=191.0,y=118.0,z=-45.0,crate=BannersCrate
+- world=thebridge_world,x=192.0,y=117.0,z=-42.0,crate=RewardsCrate
+- world=thebridge_world,x=194.0,y=119.0,z=-47.0,crate=TagsCrate
+bedwars_world:
+- world=bedwars_world,x=-94.0,y=151.0,z=-154.0,crate=RewardsCrate
+- world=bedwars_world,x=-86.0,y=147.0,z=-145.0,crate=HatsCrate
+- world=bedwars_world,x=-105.0,y=147.0,z=-144.0,crate=TagsCrate
+- world=bedwars_world,x=-102.0,y=147.0,z=-145.0,crate=BannersCrate
+- world=bedwars_world,x=-83.0,y=147.0,z=-144.0,crate=ParticlesCrate

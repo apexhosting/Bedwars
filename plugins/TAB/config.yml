@@ -1,0 +1,225 @@
+scoreboard-teams:
+  enabled: false
+  invisible-nametags: false
+  anti-override: false
+  enable-collision: false
+  sorting-types:
+  - GROUPS:owner,admin,mod,helper,builder,premium,player,default
+  - PLACEHOLDER_A_TO_Z:%player%
+  case-sensitive-sorting: true
+  disable-in-worlds:
+  - Easter
+  - Hollow
+  - Glacier
+  - Crogorm
+  - Ashfire
+  - DragonStar
+  - Airshow
+  - LightHouse
+  - Amazon
+  unlimited-nametag-mode:
+    enabled: false
+    use-marker-tag-for-1-8-x-clients: false
+    disable-on-boats: false
+    space-between-lines: false
+    disable-in-worlds:
+    - Easter
+    - Hollow
+    - Glacier
+    - Crogorm
+    - Ashfire
+    - DragonStar
+    - Airshow
+    - LightHouse
+    - Amazon
+    dynamic-lines:
+    - abovename
+    - nametag
+    - belowname
+    - another
+    static-lines:
+      myCustomLine: 0.66
+tablist-name-formatting:
+  enabled: false
+  align-tabsuffix-on-the-right: false
+  character-width-overrides: {}
+  anti-override: false
+  disable-in-worlds:
+  - Easter
+  - Hollow
+  - Glacier
+  - Crogorm
+  - Ashfire
+  - DragonStar
+  - Airshow
+  - LightHouse
+  - Amazon
+header-footer:
+  enabled: true
+  disable-in-worlds:
+  - WHITELIST
+  - bedwars_world
+  header:
+  - '&7&lAPEX &E&LBEDWARS'
+  - ''
+  - '&7PLAYER: &e%player%'
+  - '&7WINS: &a%bedwars_stats_wins%'
+  - '&7ONLINE: &b%online%'
+  - ''
+  footer:
+  - ''
+  - '%animation:time%'
+  - ''
+  - '&7Visit our webpage &eapexminecrafthosting.com'
+  per-world:
+    world2-world3:
+      header:
+      - This is a shared header for
+      - world2 and world3
+    world1:
+      footer:
+      - header/footer and prefix/suffix
+      header:
+      - an example of world with custom
+yellow-number-in-tablist:
+  enabled: false
+  value: '%ping%'
+  disable-in-worlds:
+  - Easter
+  - Hollow
+  - Glacier
+  - Crogorm
+  - Ashfire
+  - DragonStar
+  - Airshow
+  - LightHouse
+  - Amazon
+belowname-objective:
+  enabled: false
+  number: '%health%'
+  text: Health
+  disable-in-worlds:
+  - Easter
+  - Hollow
+  - Glacier
+  - Crogorm
+  - Ashfire
+  - DragonStar
+  - Airshow
+  - LightHouse
+  - Amazon
+prevent-spectator-effect:
+  enabled: false
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  default-bars:
+  - ServerInfo
+  bars:
+    ServerInfo:
+      style: PROGRESS
+      color: '%animation:barcolors%'
+      progress: '100'
+      text: '&fWebsite: &bwww.domain.com'
+    test:
+      display-condition: permission:tab.bossbar.test;%world%=testworld
+      style: PROGRESS
+      color: WHITE
+      progress: '100'
+      text: test
+per-world-playerlist:
+  enabled: true
+  allow-bypass-permission: false
+  ignore-effect-in-worlds:
+  - ignoredworld
+  - build
+  shared-playerlist-world-groups:
+    lobby:
+    - lobby1
+    - lobby2
+    minigames:
+    - paintball
+    - bedwars
+scoreboard:
+  enabled: false
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: false
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  disable-in-worlds:
+  - disabledworld
+  scoreboards:
+    admin:
+      display-condition: permission:tab.scoreboard.admin
+      if-condition-not-met: scoreboard1
+      title: Admin scoreboard
+      lines:
+      - Scoreboard for people with permission
+      - tab.scoreboard.admin
+    scoreboard1:
+      title: Default
+      lines:
+      - Scoreboard for players
+    twscoreboard:
+      title: TestWorld
+      lines:
+      - This is scoreboard for everyone in testworld world
+      display-condition: '%world%=testworld'
+ping-spoof:
+  enabled: false
+  value: 0
+fix-pet-names:
+  enabled: false
+placeholders:
+  date-format: dd.MM.yyyy
+  time-format: '[HH:mm:ss / h:mm a]'
+  time-offset: 0
+  remove-strings:
+  - '[]'
+  - < >
+placeholder-output-replacements:
+  '%essentials_vanished%':
+    'yes': '&7| Vanished'
+    'no': ''
+  '%tps%':
+    '20': '&aPerfect'
+  '%afk%':
+    'true': ' &4*&4&lAFK&4*&r'
+    'false': ''
+conditions:
+  health:
+    conditions:
+    - '%health%<21'
+    - '%health%>15'
+    type: AND
+    true: Healthy!
+    false: Damaged!
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 500
+  server:
+    '%server_uptime%': 1000
+    '%server_tps_1_colored%': 1000
+  player:
+    '%player_health%': 200
+    '%player_ping%': 1000
+    '%vault_prefix%': 1000
+  relational:
+    '%rel_factionsuuid_relation_color%': 500
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Helper
+- default
+debug: false
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password

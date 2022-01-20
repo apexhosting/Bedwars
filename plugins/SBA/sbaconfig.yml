@@ -1,0 +1,189 @@
+version: 1.5.6-dev45
+locale: en
+prefix: '[BWCORE]'
+debug:
+    enabled: false
+permanent-items: false
+tnt-fireball-jumping:
+    source-damage: 1
+    acceleration-y: 0.8
+    reduce-y: 2.0
+    launch-multiplier: 3.4
+    detection-distance: 8.0
+    fall-damage: 3.0
+explosion-damage: 0.25
+running-generator-drops:
+- DIAMOND
+- IRON_INGOT
+- EMERALD
+- GOLD_INGOT
+block-item-drops: true
+allowed-item-drops:
+- DIAMOND
+- IRON_INGOT
+- EMERALD
+- GOLD_INGOT
+- GOLDEN_APPLE
+- OBSIDIAN
+- TNT
+give-killer-resources: true
+remove-sword-on-upgrade: true
+block-players-putting-certain-items-onto-chest: true
+disable-armor-inventory-movement: false
+floating-generator:
+    enabled: true
+    height: 2.5
+    mapping:
+        EMERALD: EMERALD_BLOCK
+        DIAMOND: DIAMOND_BLOCK
+upgrades:
+    timer-upgrades-enabled: true
+    show-upgrade-message: true
+    trap-detection-range: 7
+    multiplier: 0.25
+    limit:
+        Sharpness: 1
+        Protection: 4
+        Efficiency: 2
+        Iron: 30
+        Gold: 7
+        Diamond-I: 4
+        Emerald-I: 4
+        Diamond-II: 6
+        Emerald-II: 6
+        Diamond-III: 8
+        Emerald-III: 8
+        Diamond-IV: 12
+        Emerald-IV: 12
+    prices:
+        Sharpness-I: 4
+        Sharpness-II: 8
+        Sharpness-III: 12
+        Sharpness-IV: 16
+        Prot-I: 4
+        Prot-II: 8
+        Prot-III: 12
+        Prot-IV: 16
+        Efficiency-I: 4
+        Efficiency-II: 4
+        Efficiency-III: 4
+        Efficiency-IV: 4
+    time:
+        Diamond-II: 300
+        Emerald-II: 700
+        Diamond-III: 1000
+        Emerald-III: 1300
+        Diamond-IV: 1500
+        Emerald-IV: 1800
+date:
+    format: MM/dd/yy
+lobby-scoreboard:
+    enabled: true
+    player-size:
+        games:
+            Airshow: 4
+            Crogorm: 4
+            Ashfire: 4
+            Amazon: 4
+            Easter: 4
+            Hollow: 4
+            Glacier: 4
+            Dragonstar: 4
+            Lighthouse: 4
+first_start: false
+shout:
+    time-out: 60
+disabled-sword-armor-damage: true
+game:
+    tab-health: true
+    tag-health: true
+games-inventory:
+    enabled: true
+show-health-in-tablist: true
+show-health-under-player-name: true
+main-lobby:
+    enabled: false
+    custom-chat: true
+    tablist-modifications: true
+    progress-format: §b%progress%§7/§e%total%
+experimental:
+    reset-item-meta-on-purchase: false
+party:
+    enabled: true
+    leader-autojoin-autoleave: true
+    invite-expiration-time: 60
+team-status:
+    target-destroyed: §c✗
+    target-exists: §a✓
+    alive: '%color% %team% §a✓ §8%you%'
+    destroyed: '%color% %team% §a§f%players%§8 %you%'
+    eliminated: '%color% %team% §c✘ %you%'
+chat-format:
+    game-chat:
+        enabled: true
+        format: §7[%color%%team%§7] %color%%player% §f> %message%
+        format-spectator: §7[§fSpectator§7] §f%player% > %message%
+        all-chat-prefix: '@a'
+        all-chat-format: §7[§fALL§7] §7[%color%%team%§7] %color%%player% §f> %message%
+    lobby-chat:
+        enabled: true
+        format: '%color%%player% §f> %message%'
+shop:
+    removePurchaseMessages: false
+    shopback: BARRIER
+    pageback: ARROW
+    pageforward: BARRIER
+    shopcosmetic: AIR
+    normal-shop:
+        shopcosmetic: GRAY_STAINED_GLASS_PANE
+        name: '[SBA] Shop'
+        rows: 6
+        render-actual-rows: 6
+        render-offset: 0
+        render-header-start: 9
+        render-footer-start: 600
+        items-on-row: 9
+        show-page-numbers: true
+        enabled: true
+        entity-name:
+        - §bITEM SHOP
+        - §eRIGHT CLICK
+        skin:
+            value: ewogICJ0aW1lc3RhbXAiIDogMTYyNjA5MTkyNjQ3NCwKICAicHJvZmlsZUlkIiA6ICJiNjM2OWQ0MzMwNTU0NGIzOWE5OTBhODYyNWY5MmEwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCb2JpbmhvXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmRmOTBkZWI0YmYzNmM3Y2I4Y2Y2Zjg0NWQ0OTYzZWVhODkyNzRlMDBkNmFjMzQxNjJiYTc3MTE1ZjMyMWZhIgogICAgfQogIH0KfQ==
+            signature: dRVORv3TXsP80Xfzy2/CYAHN92iF+4UYe8Un7jSEvCc9fwz9z39lB1ooO62hdArqZuNU2b7OKUZd8LYbctj8hUnaKdQ4kxbO1xQENRATNGsk1PWrVLgMikg2Vx4+2DCakE18f9UAVGHqGFVInI3dCCG7QmWqNI+l4g+GjxNzYVDWlW/PsB7CuQsOhJGY1hq2B1JRQ4mhZl0Tks/gU+qdw+ClOShB50KB2Q60d+fd04xYYCAJHk/a9c45EBBU8rHix8M2GV6hYXQZcdXZMB/KZBHAQfCrnlMhlTOzKfUYI5sDzSH6zBIWtE36zVeuYuM4Rppt0doT9qNJXJIYJ4UlZ11l8F9/ShQST+h138yJMgxRmIi3KAGhEJ8aVKkeeXMARbF9uFZbxHoZd66lhA5BWYsrFhyxKrPVO2AsfsfFQCY/DLurEdVVTWcN5K4Frh2Pt97gDJYBYXOuClaS367q57X76yuFqOFe6AvRI1Hvr22k8WvqpSqXzEXlfLUMwz9iKgbptS/Y9X78dseBwS7OdmUTFl1VgDZerQH1RDUrDTxr/Hiv0KE1czhbOQInRTaAT65dPB9RHZ3OnlgHcA7+7joRuPHihPuLH45NKHAxLn10CiolrtgxmGejkWqtNVKNlZNiAl49u4CRCqC13P/crCi9vlonjPg8mkLivsuyA8g=
+        inventory-type: CHEST
+    upgrade-shop:
+        rows: 4
+        render-actual-rows: 6
+        render-offset: 9
+        render-header-start: 0
+        render-footer-start: 45
+        items-on-row: 9
+        show-page-numbers: true
+        enabled: true
+        name: '[SBA] Upgrade Shop'
+        entity-name:
+        - §cTEAM UPGRADES
+        - §eRIGHT CLICK
+        skin:
+            value: ewogICJ0aW1lc3RhbXAiIDogMTYyNjA4ODMxNjI3OCwKICAicHJvZmlsZUlkIiA6ICIxYWZhZjc2NWI1ZGY0NjA3YmY3ZjY1ZGYzYWIwODhhOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3lfQmxvb2RBbmdlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZjM0N2NiYjg3ZmVjMDA2MDc3ZDI2MTFjZjk4MTM4NGMwOWNlM2FjNDQ1M2FlY2M4MjMzYWMwODk3YjA3ZDYwIgogICAgfQogIH0KfQ==
+            signature: oqCVAspoQ/uCoZX/2XTgoYjAGBVJSXLi+/QPHKPaGqP9zEXHE7k5TH5Z7K7x5D8ECCtZq8jW6GCzIzigvTKp2jRXoEnjnOmzc82P6nSV39NKueB6XVi12fluewaLNlzhJUwn1+7NOYlwKH3qN3/Rd8bE3lNv9bkrWN67zjnYDA7o4vxfkzgV9Hd1CEV9oVRsSne3rm7kYN1iRoMYArL4+EYTYUxd6HMUZ33b5yecQz+UctiGcRUXzPDU/RANxYlBkH6WIe6C8QH84MtjTD20X/2qmlhYeTA98Jf5eiPLfTd+30q603moUEf5VyEuaK3qxMektnaaIO0Wdx7fGYQelbDkejxqL7c//gupksKMqlFqBtLYTRcAXCS5hFbl2tnN80O4Kq0v4E1HOmBZYKZf/yYahNbRZyj0hNaG1dDdM/dqfBmBQWbcSnvb3M9YE9mXAoddryRii6kHVEQWO+C8xHECQK69AN/XhGnr+2X+cDfHHGIrVY10/rVXF2faPTauj/aFOZLp/fhOuLzOSQZYQCIe/jiO5BbEJ6owU5cyL0V/8x4609Pu7REhwiS2wDUrfLl5yyTyw232pVwO545awKV0O0/fnWeeLePuv8qBh/ngNZ52iDeEfpDeBe3DB1FFOSup96/eL/7blzDxKmzIVO29egg8xTVsYwUr23J1y0s=
+        inventory-type: CHEST
+    can-downgrade-item: false
+player-statistics:
+    xp-to-level-up: 500
+npc:
+    enabled: true
+    shop-skin: 561657710
+    upgrade-shop-skin: 779554483
+generator-splitter:
+    allowed-materials:
+    - GOLD_INGOT
+    - IRON_INGOT
+popup-tower:
+    height: 10
+autoset-bw-config: false
+disable-item-damage: true
+replace-sword-on-upgrade: true
+final-kill-lightning: true
+replace-stores-with-npc: false

@@ -1,21 +1,22 @@
-portal:
-  location: lobby, -21.246, 131.632, -11.563
+autojoin:
+  location: bedwars_world, -93.483, 148.427, -139.875
   lines:
-  - '&8&m----------&r&8[ &3End Portal &8]&8&m----------'
-  - '&bInformation'
-  - '&8[p] &7Jump in the &bend portal&7 &8[p]'
-  - '&8[p] &7to play some &3SkyWars&7! &8[p]'
-  - '&8&m-------------------------------'
+  - '&b&lAUTOJOIN'
+  - '&eJump into the portal!'
+i1:
+  location: bedwars_world, -102.313, 148.692, -118.503
+  lines:
+  - '&7RIGHT CLICK'
+i2:
+  location: bedwars_world, -102.613, 148.692, -121.629
+  lines:
+  - '&7RIGHT CLICK'
+i3:
+  location: bedwars_world, -102.576, 148.692, -124.886
+  lines:
+  - '&7RIGHT CLICK'
 welcome:
-  location: lobby, 299.445, 185.529, -417.521
+  location: bedwars_world, -93.581, 150.242, -113.400
   lines:
-  - '&c&lWELCOME'
-  - '&7Welcome to Bedwars!'
-  - '&8&m---------------'
-  - '&b&lHOW TO GET STARTED?'
-  - '&7Hop into a game by'
-  - '&7running forward and'
-  - '&7clicking the sign!'
-  - ''
-  - '&cMake sure you have fun!'
-  - '&8&m---------------'
+  - '&7&lAPEX &E&LBEDWARS'
+  - '&7Welcome to the battlefield!'

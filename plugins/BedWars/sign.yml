@@ -1,0 +1,82 @@
+sign:
+- name: Airshow
+  location:
+    ==: org.bukkit.Location
+    world: bedwars_world
+    x: -77.0
+    y: 148.0
+    z: -132.0
+    pitch: 0.0
+    yaw: 0.0
+- name: Crogorm
+  location:
+    ==: org.bukkit.Location
+    world: bedwars_world
+    x: -77.0
+    y: 148.0
+    z: -138.0
+    pitch: 0.0
+    yaw: 0.0
+- name: Lighthouse
+  location:
+    ==: org.bukkit.Location
+    world: bedwars_world
+    x: -111.0
+    y: 149.0
+    z: -135.0
+    pitch: 0.0
+    yaw: 0.0
+- name: Ashfire
+  location:
+    ==: org.bukkit.Location
+    world: bedwars_world
+    x: -77.0
+    y: 148.0
+    z: -136.0
+    pitch: 0.0
+    yaw: 0.0
+- name: Hollow
+  location:
+    ==: org.bukkit.Location
+    world: bedwars_world
+    x: -111.0
+    y: 148.0
+    z: -136.0
+    pitch: 0.0
+    yaw: 0.0
+- name: Dragonstar
+  location:
+    ==: org.bukkit.Location
+    world: bedwars_world
+    x: -111.0
+    y: 149.0
+    z: -133.0
+    pitch: 0.0
+    yaw: 0.0
+- name: Amazon
+  location:
+    ==: org.bukkit.Location
+    world: bedwars_world
+    x: -77.0
+    y: 148.0
+    z: -134.0
+    pitch: 0.0
+    yaw: 0.0
+- name: Easter
+  location:
+    ==: org.bukkit.Location
+    world: bedwars_world
+    x: -111.0
+    y: 149.0
+    z: -137.0
+    pitch: 0.0
+    yaw: 0.0
+- name: Glacier
+  location:
+    ==: org.bukkit.Location
+    world: bedwars_world
+    x: -111.0
+    y: 148.0
+    z: -134.0
+    pitch: 0.0
+    yaw: 0.0

@@ -1,0 +1,6 @@
+worlds:
+  bedwars_world:
+    spawnpoint: bedwars_world:-93.5:148.0:-110.5:181.65013:-1.3499951
+    y-void: 0.0
+    enabled: true
+    keep-inventory: true

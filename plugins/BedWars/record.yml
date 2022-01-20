@@ -1,0 +1,48 @@
+record:
+  Airshow:
+    time: 229
+    team: §9BLUE
+    winners:
+    - AllanStrat
+  Amazon:
+    time: 5
+    team: §7GRAY
+    winners:
+    - AllanStrat
+  Ashfire:
+    time: 184
+    team: §cRED
+    winners:
+    - AllanStrat
+  Dragonstar:
+    time: 91
+    team: §7GRAY
+    winners:
+    - AllanDev
+  Easter:
+    time: 63
+    team: §8GRAY
+    winners:
+    - AllanStrat
+  Glacier:
+    time: 46
+    team: §cRED
+    winners:
+    - AllanStrat
+  Lighthouse:
+    time: 43
+    team: §8GRAY
+    winners:
+    - AllanStrat
+  Crogorm:
+    time: 25
+    team: §dPINK
+    winners:
+    - AllanStrat
+  Hollow:
+    time: 897
+    team: §cRED
+    winners:
+    - LordSherman
+    - Retrovidya
+    - Plub71

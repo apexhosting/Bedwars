@@ -1,0 +1,15 @@
+Mystery-Vaults:
+  '1':
+    BlockFace: WEST
+    Location:
+      world: bedwars_world
+      x: -85.0
+      y: 147.0
+      z: -116.0
+  '2':
+    BlockFace: EAST
+    Location:
+      world: bedwars_world
+      x: -103.0
+      y: 147.0
+      z: -116.0
