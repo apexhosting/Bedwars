@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.3]
+
+### Changed
+
+- Fixed player stats issues.
+
 ## [1.2]
 
 ### Changed
@@ -27,6 +33,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[1.3]: https://github.com/apexhosting/Bedwars/releases/tag/1.3
 [1.2]: https://github.com/apexhosting/Bedwars/releases/tag/1.2
 [1.1]: https://github.com/apexhosting/Bedwars/releases/tag/1.1
 [1.0]: https://github.com/apexhosting/Bedwars/releases/tag/1.0
