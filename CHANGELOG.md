@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.4]
+
+### Changed
+
+- All the beds have been re-set.
+- Removed the achievement announcements.
+- Implemented 1.8-1.19 support.
+
 ## [1.3]
 
 ### Changed
@@ -33,6 +41,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[1.4]: https://github.com/apexhosting/Bedwars/releases/tag/1.4
 [1.3]: https://github.com/apexhosting/Bedwars/releases/tag/1.3
 [1.2]: https://github.com/apexhosting/Bedwars/releases/tag/1.2
 [1.1]: https://github.com/apexhosting/Bedwars/releases/tag/1.1
