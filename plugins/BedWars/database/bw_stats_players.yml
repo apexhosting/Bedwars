@@ -1,0 +1,25 @@
+data:
+  59cdcd53-fa4b-40f1-8d12-3788f1916ed2:
+    kills: 1
+    wins: 2
+    score: 185
+    loses: 1
+    name: AllanStrot
+    destroyedBeds: 3
+    deaths: 3
+  f0e7f028-4955-4dc8-8e40-d334ef0bd19a:
+    kills: 1
+    wins: 1
+    score: 185
+    loses: 2
+    name: AllanStrat
+    destroyedBeds: 1
+    deaths: 3
+  ff29a21b-4766-4f8e-aa5d-12d46791ed42:
+    kills: 0
+    wins: 0
+    score: 0
+    loses: 0
+    name: AllanStret
+    destroyedBeds: 0
+    deaths: 0

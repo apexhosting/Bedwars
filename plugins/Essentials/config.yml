@@ -735,7 +735,7 @@ update-check: true
 
 # Allows people to set their bed during the day.
 # This setting has no effect in Minecraft 1.15+, as Minecraft will always allow the player to set their bed location during the day.
-update-bed-at-daytime: true
+update-bed-at-daytime: false
 
 # Set to true to enable per-world permissions for using homes to teleport between worlds.
 # This applies to the /home command only.
@@ -1155,13 +1155,13 @@ respawn-at-home: false
 
 # When users die, should they respawn at their bed instead of the spawnpoint?
 # The value of respawn-at-home (above) has to be true.
-respawn-at-home-bed: true
+respawn-at-home-bed: false
 
 # When users die, should EssentialsSpawn respect users' respawn anchors?
 respawn-at-anchor: false
 
 # Teleport all joining players to the spawnpoint
-spawn-on-join: false
+spawn-on-join: true
 # The following value of `guests` states that all players in group `guests` will be teleported to spawn when joining.
 #spawn-on-join: guests
 # The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining. 

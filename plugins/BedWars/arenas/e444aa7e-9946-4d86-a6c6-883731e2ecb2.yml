@@ -14,7 +14,7 @@ teams:
     isNewColor: true
     color: RED
     maxPlayers: 3
-    bed: -29.0;67.0;-67.0;0.0;0.0
+    bed: -29.0;67.0;-65.0;0.0;0.0
     spawn: -28.52642808529874;67.0;-77.48069920031958;0.44503784;2.6999588
   GRAY:
     isNewColor: true
