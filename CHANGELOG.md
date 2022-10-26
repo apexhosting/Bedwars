@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.5]
+
+### Changed
+
+- Updated viaversion.
+
 ## [1.4]
 
 ### Changed
@@ -41,6 +47,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[1.5]: https://github.com/apexhosting/Bedwars/releases/tag/1.5
 [1.4]: https://github.com/apexhosting/Bedwars/releases/tag/1.4
 [1.3]: https://github.com/apexhosting/Bedwars/releases/tag/1.3
 [1.2]: https://github.com/apexhosting/Bedwars/releases/tag/1.2
